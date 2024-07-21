@@ -1,7 +1,26 @@
 Goals for soc home lab
 
-1. Active Directory 
+1. SIEM on ubuntu vm 
+2. Active Directory
 2. VLAN network 
-3. SIEM traffic generated to ubuntu vm 
-4. 
+4. SSH honeypot 
+
+
+Writeup...
+
+Everything documented here is in real time and adjustments to my model will be prevelent throughout this wrietup. 
+
+I aquired an old desktop off of facebook marketplace since I did not want to use own pc. This also conveniently worked out because I had chosen proxmox as my hypervisor. Proxmox acts as 
+its own operating system therefore, there is not need to add a base operting system to for a type 2 hypervisor, such as vmware. (7/15/2024)
+
+I flashed 4 iso images on a usb then uploaded them to proxmox. The first was windows, this would act as my victim vm and also as the host for the active directory server. Next was 
+Kali Linux, this act as the attacker vm. Third was ubunutu, this would be my vm that hosts the siem and collects the security logs from the victim vm (windows). Last was pfsense, this will be my firewall
+and help me set up the VLAN. (7/17-19/2024)
+
+I attempted to create a VLAN for my first project but decided to abandon it for the time being. I will be coming back to this project at a later point though. The desktop I am running in proxmox only has one
+nic card and I do not have a managed switch yet. This obviously complicates the process of making a VLAN since I will have to virtualize everything. I thought it would be a better learning experience if I acquired 
+a managed switch and installed another nic card for my lan network. I plan to move on to either making the SIEM or Active Directory. (7/20/2024)
+
+
+
 
