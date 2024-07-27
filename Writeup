@@ -24,4 +24,6 @@ a managed switch and installed another nic card for my lan network. (7/20/2024)
 I ordered a 5 port managed switch to assist in the process of building my VLAN. It gets in wednesday (7/24/2024). My kali linux and ubuntu vms also broke, they are stuck on a message saying "booting from 
 harddrive". It seems something went wrong with installation process so I will redownload them with a fresh image. (7/22/2024)
 
+Switch arrived on Wednesday (7/24/2024). 
 
+VLAN successfuly set up (7/26/2024). Planning to use pfsense to configure security controls. 
