@@ -26,6 +26,6 @@ harddrive". It seems something went wrong with installation process so I will re
 
 Switch arrived on Wednesday (7/24/2024). 
 
-VLAN successfuly set up (7/26/2024). 
+VLAN successfuly set up. Had several troubles such as my router not supporting VLAN tagging, however, my switch was able to negate that. (7/26/2024). 
 
-installed windows ad vm on proxmox. Reinstalled kali linux and got it working now on the vm. Attempting to install security onion siem iso but internet is to slow and keeps failing lol (7/28/2024).
+installed windows ad vm on proxmox. Reinstalled kali linux and got it working now on the vm. Attempting to install security onion siem iso but the internet keeps cutting out lol. (7/28/2024).
