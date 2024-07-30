@@ -8,7 +8,7 @@ Goals for soc home lab
 
 Writeup...
 
-Everything documented here is in real time, adjustmentments to my model will be prevelent throughout this writeup. 
+Everything documented here is in real time, adjustmentments to the layout of my model will be prevelent throughout this writeup. 
 
 I aquired an old desktop off of facebook marketplace since I did not want to use own pc. I had also decided I wanted to use proxmox as my hypervisor to support my SOC homelab. Proxmox is a type 1 hypervisor meaning it acts as 
 its own operating system. This will save me processing power down the road once I finish downloading my vms and putting necessary hardware on there. (7/15/2024)
