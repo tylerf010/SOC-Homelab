@@ -1,8 +1,12 @@
 Goals for soc home lab
 
 1. SIEM on ubuntu vm 
+  - takes traffic from win vm
 2. Active Directory
+  - vms (win + ubunutu) on AD 
+  - group policy 
 2. VLAN network 
+  - pfsense 
 4. SSH honeypot 
 
 
